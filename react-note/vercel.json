@@ -1,0 +1,13 @@
+{
+  "builds": [
+    {
+      "src": "build/**/*.js",
+      "use": "@vercel/static-build"
+    }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/index.html" }
+  ],
+  "plugins": ["@vercel/plugin-vite"]
+}
