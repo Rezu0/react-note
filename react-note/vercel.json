@@ -9,5 +9,4 @@
     { "handle": "filesystem" },
     { "src": "/.*", "dest": "/index.html" }
   ],
-  "plugins": ["@vercel/plugin-vite"]
 }
